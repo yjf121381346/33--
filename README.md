@@ -37,14 +37,14 @@ vector容器内装有所有可能的灯条\
 ## main.cpp
 依次使用相应函数，可对视频或图片进行处理
 ```cpp
-VideoCapture capture() //读取视频
-Kalman KF //初始化卡尔曼滤波器
-setWidth() //设置像素宽度、相机焦距和被测物体宽度
-BinaryImage() //二值化
-findLight() //寻找灯条
-fixLight() //匹配灯条
-distanceMeasure() //测距
-setPredictCenter() //预测
-drawLight() //拟合灯条和装甲板中心点
-show() //显示画面
+VideoCapture capture()   //读取视频
+Kalman KF                //初始化卡尔曼滤波器
+setWidth()               //设置像素宽度、相机焦距和被测物体宽度
+BinaryImage()            //二值化
+findLight()              //寻找灯条
+fixLight()               //匹配灯条
+distanceMeasure()        //测距
+setPredictCenter()       //预测
+drawLight()              //拟合灯条和装甲板中心点
+show()                   //显示画面
 ```
